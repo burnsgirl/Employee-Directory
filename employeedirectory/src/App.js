@@ -9,6 +9,7 @@ function App() {
     <body>
       <Title />
       <EmployeeCard />
+      <EmployeeCard />
 
     </body>
 
