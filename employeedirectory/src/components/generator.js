@@ -11,7 +11,7 @@ class Employee extends Component {
     }
 
     componentDidMount() {
-        fetch("https://randomuser.me/api/")
+        fetch("https://randomuser.me/api/?results=20")
         .then((res) => res.json())
         .then((res) => {
             this.setState({
@@ -32,9 +32,19 @@ class Employee extends Component {
 
         return (
             <div className="container">
+                <div className="row">
                 {items.map(items => (
-                    <img src={items.picture.medium} alt={items.name.first}/>
+                    <div className="card col-md-3">
+                        <div card-header>
+                            <h1>{items.name.first} {items.name.last}</h1>
+                        </div>
+                        <img src={items.picture.large} class="img-thumbnail" alt={items.name.first}/>
+                        <p>
+                        <button className="btn btn-primary btn-lg">Learn more</button>
+                        </p>
+                    </div>
                 ))}
+                </div>
             </div>
         )
 
