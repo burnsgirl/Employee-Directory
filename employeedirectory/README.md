@@ -4,9 +4,9 @@
 
 <!-- <img src="Assets/four.png"> -->
 
-https://burnsgirl.github.io/Employee-Directory/
+[Deployed](https://burnsgirl.github.io/Employee-Directory/)   |    [Repo](https://github.com/burnsgirl)
 
-https://github.com/burnsgirl
+
 
 ## Description
 Viewing your employees has never been easier! Take a look at your employee's information so you can reach them if you need to.
