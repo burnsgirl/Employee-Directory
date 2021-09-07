@@ -6,6 +6,7 @@ function Title() {
     <div className="container">
       <div className="jumbotron"><br></br>
         <h1>Employee Directory</h1><br></br>
+        <p>I'm a jumbotron!</p>
       </div>
     </div>
   );
