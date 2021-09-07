@@ -1,5 +1,5 @@
 import React from "react";
-import api from "../utils/employees";
+
 
 function EmployeeCard(props) {
     return (
@@ -7,13 +7,13 @@ function EmployeeCard(props) {
         <div className="content">
           <ul>
             <li>
-              <strong>Name:</strong> {props.name}
+              <strong>Name:</strong> {addEmployee.name}
             </li>
             <li>
-              <strong>Occupation:</strong> {props.occupation}
+              <strong>Occupation:</strong> {addEmployee.email}
             </li>
             <li>
-              <strong>Location:</strong> {props.location}
+              <strong>Location:</strong> {addEmployee.phone}
             </li>
           </ul>
         </div>
