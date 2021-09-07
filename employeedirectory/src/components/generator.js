@@ -1,3 +1,5 @@
+import React, {Component} from 'react';
+
 class Employee extends Component {
 
     constructor(props){
@@ -17,6 +19,26 @@ class Employee extends Component {
                 loading:true
             })
         })
+    }
+
+    render() {
+        var {items, loading} = this.state
+
+        if(!loading) {
+            return (
+                <div>Loading...</div>
+            )
+        } else {
+
+        return (
+            <div className="container">
+                {items.map(items => (
+                    <img src={items.picture.medium} alt={items.name.first}/>
+                ))}
+            </div>
+        )
+
+        }
     }
 }
 
