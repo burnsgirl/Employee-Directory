@@ -39,13 +39,11 @@ class Employee extends Component {
                             <h1>{items.name.first} {items.name.last}</h1>
                         </div>
                         <img src={items.picture.large} class="img-thumbnail" alt={items.name.first}/>
-                        <div>
-                        <p>
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Button with data-target
-                        </button>
-                         </p>
-                        </div>
+                        <div class="card-body">
+                            <p>Email: {items.email}</p>
+                            <p>Cell Phone Number: {items.cell}</p>
+                            <p>Age: {items.dob.age}</p>
+                         </div>
                     </div>
                 ))}
                 </div>
