@@ -1,15 +1,11 @@
 import React from "react";
 
 
-function Bootstrap() {
+function HomePage() {
   return (
     <div className="container">
-      <div className="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>I'm a jumbotron!</p>
-        <p>
-          <button className="btn btn-primary btn-lg">Learn more</button>
-        </p>
+      <div className="jumbotron"><br></br>
+        <h1>Employee Directory</h1><br></br>
       </div>
       <div className="card mb-4">
         <div className="card-header">
@@ -31,4 +27,4 @@ function Bootstrap() {
   );
 }
 
-export default Bootstrap;
+export default HomePage;
