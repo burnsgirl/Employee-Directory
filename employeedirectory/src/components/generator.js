@@ -43,6 +43,7 @@ class Employee extends Component {
                             <p>Email: {items.email}</p>
                             <p>Cell Phone Number: {items.cell}</p>
                             <p>Age: {items.dob.age}</p>
+                            <p>City, State: {items.location.city}, {items.location.state}</p>
                          </div>
                     </div>
                 ))}
