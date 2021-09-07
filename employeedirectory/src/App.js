@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import HomePage from './components/home';
+import Title from './components/title';
 
 function App() {
-  return <HomePage />;
+  return <Title />;
     
 }
 
