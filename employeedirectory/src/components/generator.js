@@ -34,18 +34,23 @@ class Employee extends Component {
             <div className="container">
                 <div className="row">
                 {items.map(items => (
-                    <div className="card col-md-3">
+                    <div className="card col-md-4">
                         <div card-header>
                             <h1>{items.name.first} {items.name.last}</h1>
                         </div>
                         <img src={items.picture.large} class="img-thumbnail" alt={items.name.first}/>
+                        <div>
                         <p>
-                        <button className="btn btn-primary btn-lg">Learn more</button>
-                        </p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Button with data-target
+                        </button>
+                         </p>
+                        </div>
                     </div>
                 ))}
                 </div>
             </div>
+            
         )
 
         }
