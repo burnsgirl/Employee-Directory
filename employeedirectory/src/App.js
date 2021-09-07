@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Bootstrap from './components/home';
+import HomePage from './components/home';
 
 function App() {
-  return <Bootstrap />;
+  return <HomePage />;
     
 }
 
